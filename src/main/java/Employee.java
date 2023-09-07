@@ -16,4 +16,14 @@ public class Employee {
         this.country = country;
         this.age = age;
     }
+
+    public String toString() {
+        return "{" +
+                "\"id\":" + id +
+                ",\"firstName\":" + "\"" + firstName + "\"" +
+                ",\"lastName\":" + "\"" + lastName + "\"" +
+                ",\"country\":" + "\"" + country + "\"" +
+                ",\"age\":" + age +
+                '}';
+    }
 }
